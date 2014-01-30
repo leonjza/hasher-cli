@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A small script to generate reproducible, unique passwords for use in websites/programs.",
   "author": "Leon Jacobs <theninjabag@gmail.com>",
+  "preferGlobal": true,
   "repository" : { 
       "type" : "git",
       "url" : "https://github.com/th3l33k/hasher-cli.git"
