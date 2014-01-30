@@ -16,7 +16,8 @@ if (typeof process.argv[3] !== 'undefined') {
    var length = process.argv[3];
    var intRegex = /^\d+$/;
    if(!intRegex.test(length)) {
-      console.log('I am not an int');
+      console.log('The length must be a number, max 32.');
+      console.log('Usage: hasher.js <identifier> <output-length | optional>');
       process.exit(1);
    } else {
       if (length > 32) {
