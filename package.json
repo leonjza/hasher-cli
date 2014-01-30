@@ -8,8 +8,11 @@
       "url" : "https://github.com/th3l33k/hasher-cli.git"
   },
   "license": "MIT",
-   "dependencies": {
+  "dependencies": {
       "crypto-js": "3.1.x",
       "read": "1.0.x"
-   }
+  },
+  "bin": {
+    "hasher-cli": "./hasher-cli.js"
+  }
 }
