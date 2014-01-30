@@ -1,6 +1,6 @@
 {
   "name": "hasher-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small script to generate reproducible, unique passwords for use in websites/programs.",
   "author": "Leon Jacobs <theninjabag@gmail.com>",
   "preferGlobal": true,
