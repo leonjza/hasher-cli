@@ -1,0 +1,15 @@
+{
+  "name": "hasher-cli",
+  "version": "0.0.1",
+  "description": "A small script to generate reproducible, unique passwords for use in websites/programs.",
+  "author": "Leon Jacobs <theninjabag@gmail.com>",
+  "repository" : { 
+      "type" : "git",
+      "url" : "http://github.com/th3l33k/npm.git"
+  },
+  "license": "MIT",
+   "dependencies": {
+      "crypto-js": "3.1.x",
+      "read": "1.0.x"
+   }
+}
